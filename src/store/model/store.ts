@@ -388,7 +388,7 @@ export type Store = {
   labels: Labels;
   name: string;
   country: string;
-  currency: '£' | '$' | '€' | 'R$' | 'kr.' | '';
+  currency: '£' | '$' | '€' | 'R$' | 'kr.' | 'CHF';
   setupAction?: (browser: Browser) => void;
   /**
    * The range of status codes which considered successful, i.e. without error
